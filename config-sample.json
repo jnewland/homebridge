@@ -3,6 +3,11 @@
 
     "accessories": [
         {
+            "accessory": "Debug",
+            "name": "Debug",
+            "description": "A simple accessory that logs to the console"
+        },
+        {
             "accessory": "WeMo",
             "name": "Coffee Maker",
             "description": "This shim supports Belkin WeMo devices on the same network as this server. You can create duplicate entries for this device and change the 'name' attribute to reflect what device is plugged into the WeMo, for instance 'Air Conditioner' or 'Coffee Maker'. This name will be used by Siri. Make sure to update the 'wemo_name' attribute with the EXACT name of the device in the WeMo app itself. This can be the same value as 'name' but it doesn't have to be.",
